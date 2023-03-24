@@ -1,0 +1,231 @@
+
+  @keyframes vip{
+    to{transform: translate(100px,0px);}
+}
+    
+
+body{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62%;
+}
+
+nav{
+    height: 9.0rem;
+    width: 100%;
+    position: sticky;top: 0rem;
+    background-color: rgb(5, 74, 116);
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo p{
+    float: left;
+    font-weight: bold;
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    cursor: pointer;}
+
+    .logo p i{
+       padding: 0rem 1.0rem;
+       color: green;
+       }
+
+.menu{
+ width: 56.0rem;
+
+}
+
+
+.menu li{
+    display: inline;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    }
+  
+  .menu li a{
+          color:rgb(255, 255, 255);
+          padding: 0 0;
+          font-size: 1.8rem;
+          text-align: center;
+
+          
+       }
+ 
+  .menu li a:hover{
+  font-weight: bolder;
+  color: rgb(4, 163, 4);
+  }
+  
+  #button{
+    display:flex;
+    justify-content:space-between;
+   
+  }
+  
+  #button a{
+  background-color: rgb(204, 204, 204);
+  width: 3.65rem;
+  height: 2.75rem;
+  padding-top: 0.75rem;
+  font-size: 2.45rem;
+  text-align: center;
+  border-radius: .3rem;
+  margin: 0 0.3rem;
+  }
+  #button a:hover{
+  border: .1rem solid rgb(105, 103, 103);
+  opacity: 0.8;
+  border-color: blue;
+  }
+
+.bg{
+  margin: 0;padding: 0;
+height:50rem;
+width: 100%;
+background-image:url("img/Grocery-PNG-Image.png");
+background-size: cover;
+background-position: center;
+text-align: center;
+z-index: 2;
+}
+.bg p{
+  margin: 0;padding: 0;
+  position: relative;
+  top: 25%;
+  line-height: 7rem;
+ 
+}
+.bg  button{
+height:3.8rem;
+width:15rem;
+border: 0.2rem solid green;
+border-radius: .3rem;
+background: none;
+font-size: 2rem;
+font-weight: bold;
+color: rgb(15, 15, 141);
+
+
+}
+.bg  button:hover{
+background-color: rgba(28, 139, 28, 0.715);
+transform: scale(0.99,0.99);
+}
+
+
+.footer{
+    background-color: rgb(5, 74, 116);
+     height: 33.0rem;  
+     
+     }
+     .rows{
+    
+     margin: 0rem auto;
+     justify-content:space-around;
+     display: flex;
+     flex-wrap: wrap;
+     }
+     .col{
+     width: 15%;
+     padding: 0rem 0rem;
+     margin: 0rem 0rem;
+     text-align:start;
+     
+     }
+     .col p{
+       font-size: 1.5rem;
+     }
+     .col h2{
+     font-size: 2.7rem;
+     font-weight: bold;
+     color: rgb(2, 4, 74);
+     margin-bottom: .5rem;
+     letter-spacing: -2px;
+    
+    
+     }
+     .col ul{
+       padding-left: 0rem;
+     }
+ 
+     .col ul li:not(:last-child) {
+     margin-bottom: 1.2rem;
+     }
+     .col ul li a{
+     display: block;
+     font-size: 1.6rem;
+     color: rgb(255, 255, 255);
+     }
+    
+     #col1 a{
+     padding: .5rem .8rem;
+     height: 2.1rem;width: 2.1rem;
+     font-size: 2.2rem;
+     margin: 0 0.5rem;
+     border-radius: .3rem;
+     background-color: rgba(190, 180, 180, 0.804);
+     }
+     
+     #col4 ul li{
+       font-size: 1.5rem;
+       color: white;
+     }
+     #col3 ul li a i{
+     color: rgb(234, 43, 43);
+     margin-right:1.5rem;
+     }
+     .col ul li a:hover{
+     transform: translate(1.2rem,0rem);
+     color: green;
+     }
+     
+     #col4 input{
+     width: 13rem;
+     height: 3.0rem;
+     border-radius: .3rem;
+     font-size: 1.9rem;
+     border: none;
+     background-color: rgba(253, 251, 251, 0.226);
+     }
+     ::placeholder{
+     padding-left: 1.0rem;
+     color: white;
+     }
+     #col4 button{
+     
+     height: 4.0rem;
+     width: 10rem;
+     border: .2rem solid green;
+     border-radius: .4rem;
+     background: none;
+     font-size: 1.3rem;
+     font-weight: bold;
+     color: rgb(250, 250, 253);
+     
+     }
+     #col4 li img{
+     margin: 0rem .5rem;
+     height: 3.4rem;
+     width:3rem;
+     
+     }
+ #col4 button:hover{
+ background-color: rgba(28, 139, 28, 0.715);
+ transform: scale(0.95,0.99);
+ }
+ #col4 input:hover{
+ background-color: rgba(195, 195, 195, 0.467);
+ opacity: 2;
+ }
+     .rows ul{
+     list-style: none;
+     }

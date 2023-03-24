@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(229, 229, 229);
+    }
+     
+    .cart{height: 10.0rem;
+        display: flex;
+        justify-content:center;
+        display: flex;
+        
+    }
+
+     .cart p{
+      margin: 3.0rem 0rem;
+        font-size: 4.0rem;
+        font-weight: bold;
+        
+     }
+     .shape{
+        text-align: center;
+        bottom: 0;
+        margin: 3.0rem 0rem;
+        font-size: 3.8rem;
+        font-weight: bold;
+        height: 20.0rem;width:20.0rem;background-color: green;
+            clip-path: polygon(0 0, 100% 0, 93% 11%, 100% 24%, 1% 24%, 7% 11%);  
+     }
+        #main{
+        height: 50%;width:67%;
+        display: grid;
+        grid-template-rows:38.0rem 38.0rem 38.0rem; 
+        grid-template-columns:1fr 1fr 1fr ;
+        justify-content: center;
+        gap: 5.5rem 4.0rem;
+        margin: 0rem auto;
+        margin-bottom: 5rem;
+       
+    
+    
+     }
+
+     #main div{ 
+        border-radius: .1rem;
+        box-shadow: 0 0 2.5rem#6f6e6e;
+        text-align: center;
+        outline: 1.0rem solid white;
+        border: .1rem solid grey;
+        background-color: white;
+     }
+     .imgs{
+        height: 45%;
+        
+     }
+     .product h3{
+      font-size: 1.6rem;
+        margin:0rem;
+       
+    }
+    .product p{
+        margin: 0;font-size: 1.6rem;
+        color: rgb(124, 122, 122);
+    }
+    
+     .product input{
+        height: 10%;
+        width: 55%;
+        margin-bottom: 1.5rem;
+        margin-top: 0rem;
+        background-color: transparent;
+        color: navy;
+        border: .3rem solid green;
+        border-radius: .3rem; 
+        font-size: 1.8rem;
+     }
+     .product input:hover{
+        background-color: rgb(2, 131, 2);
+        transform: scale(1.1,1.1);
+     }
+
+
+
+
